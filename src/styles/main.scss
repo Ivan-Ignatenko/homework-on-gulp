@@ -1,0 +1,1455 @@
+@import './base/mixins';
+@import './base/reset';
+@import './base/variabless';
+@import './base/fonts';
+
+header {
+    width: 1440px;
+    height: 700px;
+    background-image: url(../images/Headaer.png);
+    padding-top: 46px;
+}
+
+.header-logo {
+    width: 152px;
+    height: 24px;
+    margin-left: 249px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.log {
+    position: absolute;
+    width: 55px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    float: left;
+    margin: -19px 0px 0px 996px;
+}
+
+.sign {
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: -29px 0px 0px 1059px;
+
+    .sign-text {
+        width: 55px;
+        height: 17px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+}
+
+.header-name {
+    width: 470px;
+    height: 126px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 154px auto 0px auto;
+}
+
+.header-name-title {
+    width: 396px;
+    height: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 27px auto 0px auto;
+    word-spacing: 1px;
+    color: #F7F3F2;
+}
+
+.header-name-link {
+    width: 225px;
+    height: 40px;
+    background: #FF4E50;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 34px auto 0px auto;
+
+    .header-name-link-text {
+        width: 187px;
+        height: 17px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        word-spacing: 2px;
+        color: #FFFFFF;
+    }
+}
+
+.three-steps {
+    width: 940px;
+    height: 461px;
+    margin: 89px 0px 0px 245px;
+
+    .steps-header {
+        width: 940px;
+        text-align: center;
+
+        .stepts-header-text {
+            width: 342px;
+            height: 32px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            word-spacing: 4px;
+            color: #444444;
+        }
+    }
+
+    .three-steps-img {
+        width: 940px;
+        margin: 35px 0px 0px 5px;
+        display: flex;
+        justify-content: space-between;
+
+        .step-one {
+            width: 300px;
+            height: 400px;
+            background-image: url(../images/Step1.png);
+        }
+
+        .step-two {
+            width: 300px;
+            height: 400px;
+            background-image: url(../images/Step2.png);
+        }
+
+        .step-three {
+            width: 300px;
+            height: 400px;
+            background-image: url(../images/Step3.png);
+        }
+    }
+}
+
+.step {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    text-align: center;
+    margin: 221px 0px 0px 25px;
+
+    .step-text {
+        width: 42px;
+        height: 12px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+}
+
+.step-one-header {
+    margin: 20px 0px 0px 27px;
+
+    .step-one-header-text {
+        width: 250px;
+        height: 58px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+}
+
+.step-one-title {
+    width: 250px;
+    margin: 23px 0px 0px 26px;
+    word-spacing: 1px;
+
+    .step-one-title-text {
+        width: 250px;
+        height: 57px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 14px;
+        color: #E3E3E3;
+    }
+}
+
+.step-two-logo {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    text-align: center;
+    margin: 251px 0px 0px 25px;
+
+    .step-text {
+        width: 42px;
+        height: 12px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+}
+
+.step-two-header {
+    margin: 23px 0px 0px 26px;
+    word-spacing: 3px;
+
+    .step-one-header-text {
+        width: 250px;
+        height: 58px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+}
+
+.step-two-title {
+    width: 250px;
+    margin: 16px 0px 0px 25px;
+    word-spacing: 1px;
+
+    .step-one-title-text {
+        width: 250px;
+        height: 57px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 14px;
+        color: #E3E3E3;
+    }
+}
+
+.partners {
+    width: 940px;
+    height: 461px;
+    margin: 95px 0px 0px 247px;
+
+    .steps-header {
+        width: 940px;
+        text-align: center;
+
+        .stepts-header-text {
+            width: 342px;
+            height: 32px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            word-spacing: 1px;
+            color: #444444;
+        }
+    }
+
+    .partners-img {
+        width: 894px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        padding-left: 54px;
+    }
+
+    .bradley {
+        width: 221px;
+        height: 18px;
+        margin: 16px 0px 0px 6px;
+
+        .partners-name {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #444444;
+        }
+    }
+
+    .bradley-title {
+        width: 221px;
+        height: 38px;
+        text-align: center;
+        margin: 19px 0px 0px -53px;
+
+        .partnets-title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 14px;
+            color: #666666;
+        }
+    }
+
+    .marie {
+        width: 221px;
+        height: 18px;
+        margin: 16px 0px 0px 8px;
+
+        .partners-name {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #444444;
+        }
+    }
+
+    .marie-title {
+        width: 221px;
+        height: 38px;
+        text-align: center;
+        margin: 19px 0px 0px -53px;
+
+        .partnets-title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 14px;
+            color: #666666;
+        }
+    }
+
+    .diana {
+        width: 221px;
+        height: 18px;
+        margin: 16px 0px 0px 17px;
+
+        .partners-name {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #444444;
+        }
+    }
+
+    .diana-title {
+        width: 221px;
+        height: 38px;
+        text-align: center;
+        margin: 24px 0px 0px -48px;
+
+        .partnets-title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 14px;
+            color: #666666;
+        }
+    }
+
+    .christopher {
+        width: 221px;
+        height: 18px;
+        margin: 16px 0px 0px -7px;
+
+        .partners-name {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #444444;
+        }
+    }
+
+    .christopher-title {
+        width: 221px;
+        height: 38px;
+        text-align: center;
+        margin: 24px 0px 0px -51px;
+
+        .partnets-title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 14px;
+            color: #666666;
+            word-spacing: 1px;
+        }
+    }
+
+    .marie-img {
+        margin: 0px 0px 0px 13px;
+    }
+
+    .diana-img {
+        margin: 0px 0px 0px 11px;
+    }
+
+    .christopher-img {
+        margin: 0px 0px 0px 2px;
+    }
+
+    .other-partners {
+        width: 180px;
+        height: 40px;
+        background: #FFFFFF;
+        border: 2px solid #FF4E50;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 42px 0px 0px 385px;
+
+        .other-partners-text {
+            width: 137px;
+            height: 17px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FF4E50;
+        }
+    }
+
+}
+
+.images {
+    width: 940px;
+
+    .steps-header {
+        width: 940px;
+        text-align: center;
+        margin: -5px 0px 0px 250px;
+
+        .stepts-header-text {
+            width: 342px;
+            height: 32px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            word-spacing: 4px;
+            color: #444444;
+        }
+    }
+
+    .first-img {
+        width: 940px;
+        display: flex;
+        justify-content: space-between;
+        margin: 35px 0px 0px 250px;
+
+        .sport {
+            width: 300px;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../images/Sport.png);
+
+            .sport-text {
+                width: 209px;
+                height: 27px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                color: #FFFFFF;
+                word-spacing: 3px;
+            }
+        }
+
+        .wellnes {
+            width: 300px;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../images/Healath.png);
+
+            .wellnes-text {
+                width: 238px;
+                height: 27px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                color: #FFFFFF;
+                word-spacing: 4px;
+            }
+        }
+
+        .extreme {
+            width: 300px;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../images/Extreme.png);
+
+            .extreme-text {
+                width: 187px;
+                height: 54px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                color: #FFFFFF;
+                margin-left: 8px;
+                word-spacing: 3px;
+            }
+        }
+    }
+
+    .second-img {
+        width: 940px;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0px 0px 250px;
+
+        .games {
+            width: 300px;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../images/Games.png);
+
+            .games-text {
+                width: 80px;
+                height: 27px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                color: #FFFFFF;
+                word-spacing: 3px;
+            }
+        }
+
+        .culture {
+            width: 620px;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../images/Culture.png);
+
+            .culture-text {
+                width: 261px;
+                height: 27px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                color: #FFFFFF;
+                word-spacing: 4px;
+            }
+        }
+    }
+
+    .third-img {
+        width: 940px;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0px 0px 250px;
+
+        .enjomet {
+            width: 620px;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../images/Enjomet.png);
+
+            .enjomet-text {
+                width: 277px;
+                height: 27px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                color: #FFFFFF;
+                word-spacing: 3px;
+            }
+        }
+
+        .trevelling {
+            width: 300px;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../images/Trevelling.png);
+
+            .trevelling-text {
+                width: 114px;
+                height: 27px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.create {
+    width: 482px;
+    height: 158px;
+    margin: 89px 0px 0px 543px;
+
+    .create-header {
+        width: 357px;
+        height: 32px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+        color: #444444;
+        word-spacing: 4px;
+
+    }
+
+    .create-title {
+        width: 415px;
+        height: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 14px;
+        color: #666666;
+        margin: 53px 0px 0px 40px;
+        word-spacing: 1px;
+    }
+
+    .create-form {
+        width: 482px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0px 0px -65px;
+
+        .create-form-enter {
+            width: 299px;
+            height: 40px;
+            background: #FFFFFF;
+            border: 1px solid #D4D4D4;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+            border-radius: 3px;
+            padding: 13px 0px 0px 14px;
+
+            .create-form-enter-text {
+                width: 126px;
+                height: 16px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 16px;
+                color: #999999;
+
+            }
+        }
+
+        .create-form-search {
+            width: 172.12px;
+            height: 40px;
+            background: #FF4E50;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .create-form-search-text {
+                width: 117px;
+                height: 17px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.footer-line {
+    width: 1440px;
+    height: 2px;
+    background: #FF4E50;
+    margin-top: 106px;
+}
+
+footer {
+    width: 1440px;
+    height: 224px;
+    display: flex;
+    padding: 37px 0px 0px 249px;
+
+    .footer-logo {
+        width: 119px;
+        height: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FF4E50;
+    }
+
+    .footer-company {
+        width: 70px;
+        margin: 2px 0px 0px 123px;
+
+        .footer-company-text {
+            width: 70px;
+            height: 17px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #444444;
+        }
+
+        .footer-company-menu {
+            width: 114px;
+            height: 156px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-top: 21px;
+
+            .footer-company-menu-link {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 26px;
+                color: #999999;
+            }
+        }
+    }
+
+    .footer-partners {
+        width: 64px;
+        height: 17px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #444444;
+        margin: 2px 0px 0px 169px;
+    }
+
+    .footer-designer {
+        width: 83px;
+        height: 12px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        color: #CCCCCC;
+        margin: 2px 0px 0px 316px;
+    }
+
+    .footer-designer-name {
+        width: 110px;
+        height: 24px;
+        margin: 6px 0px 0px 286px;
+        background-image: url(../images/Bitmap.png);
+    }
+}
+
+@media screen and (max-width: 1610px) {
+    header {
+        width: 768px;
+        background-position: center;
+    }
+
+    .header-logo {
+        margin-left: 49px;
+    }
+
+    .log {
+        margin: -19px 0px 0px 565px;
+    }
+
+    .sign {
+        margin: -29px 0px 0px 628px;
+    }
+
+    .three-steps {
+        width: 748px;
+        margin: 94px 0px 0px 11px;
+
+        .steps-header {
+            width: 748px;
+
+            .stepts-header-text {
+                width: 289px;
+                height: 27px;
+                font-size: 22px;
+                line-height: 27px;
+            }
+        }
+
+        .three-steps-img {
+            width: 748px;
+            margin: 35px 0px 0px -1px;
+
+            .step-one {
+                width: 236px;
+            }
+
+            .step-two {
+                width: 236px;
+            }
+
+            .step-three {
+                width: 236px;
+            }
+        }
+    }
+
+    .step {
+        margin: 205px 0px 0px 21px;
+    }
+
+    .step-one-header {
+        width: 196px;
+        margin: 46px 0px 0px 21px;
+
+        .step-one-header-text {
+            line-height: 14px;
+        }
+    }
+
+    .step-one-title {
+        width: 196px;
+        margin: 20px 0px 0px 20px;
+
+        .step-one-title-text {
+            width: 196px;
+            height: 76px;
+        }
+    }
+
+    .step-two-logo {
+        margin: 255px 0px 0px 20px;
+    }
+
+    .step-two-header {
+        width: 196px;
+        height: 29px;
+        margin: 10px 0px 0px 21px;
+    }
+
+    .step-two-title {
+        width: 196px;
+        margin: 27px 0px 0px 20px;
+    }
+
+    .partners {
+        width: 492px;
+        height: 605px;
+        margin: 95px 0px 0px 136px;
+
+        .steps-header {
+            width: 492px;
+
+            .stepts-header-text {
+                width: 415px;
+                height: 27px;
+                font-size: 22px;
+                line-height: 27px;
+                word-spacing: 2px;
+            }
+        }
+
+        .partners-img {
+            width: 600px;
+            height: 540px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 35px;
+            margin-left: 60px;
+            padding-left: 0px;
+        }
+
+        .bradley {
+            width: 236px;
+        }
+
+        .bradley-title {
+            width: 236px;
+            margin: 19px 0px 0px -60px;
+        }
+
+        .marie {
+            width: 236px;
+        }
+
+        .marie-title {
+            width: 236px;
+            margin: 19px 0px 0px -60px;
+        }
+
+        .diana {
+            width: 236px;
+        }
+
+        .diana-title {
+            width: 236px;
+            margin: 24px 0px 0px -60px;
+        }
+
+        .christopher {
+            width: 236px;
+        }
+
+        .christopher-title {
+            width: 236px;
+            margin: 19px 0px 0px -58px;
+        }
+
+        .marie-img {
+            margin: 45px 0px 0px 0px;
+        }
+
+        .diana-img {
+            margin: 0px 0px 0px -79px;
+        }
+
+        .christopher-img {
+            margin: 40px 0px 0px -79px;
+        }
+
+        .other-partners {
+            margin: -36px 0px 0px 158px;
+        }
+    }
+
+    .images {
+        width: 748px;
+
+        .steps-header {
+            width: 748px;
+            margin: 95px 0px 0px 9px;
+
+            .stepts-header-text {
+                width: 350px;
+                height: 27px;
+                font-size: 22px;
+                line-height: 27px;
+            }
+        }
+
+        .first-img {
+            width: 748px;
+            margin: 35px 0px 0px 10px;
+
+            .sport {
+                width: 236px;
+                border-radius: 4px;
+                text-align: center;
+                background-position: -40px 0px;
+
+                .sport-text {
+                    width: 206px;
+                    margin: -54px 0px 0px 0px;
+                }
+            }
+
+            .wellnes {
+                width: 236px;
+                border-radius: 4px;
+                text-align: center;
+                background-position: -40px 0px;
+
+                .wellnes-text {
+                    width: 206px;
+                    height: 54px;
+                }
+            }
+
+            .extreme {
+                width: 236px;
+                border-radius: 4px;
+                text-align: center;
+                background-position: -20px 0px;
+
+                .extreme-text {
+                    width: 206px;
+                    height: 54px;
+                    margin-left: 0px;
+                }
+            }
+        }
+
+        .second-img {
+            width: 748px;
+            margin: 20px 0px 0px 10px;
+
+            .games {
+                width: 236px;
+                border-radius: 4px;
+                background-position: -30px 0px;
+            }
+
+            .culture {
+                width: 492px;
+                border-radius: 4px;
+                background-position: -70px 0px;
+            }
+        }
+
+        .third-img {
+            width: 748px;
+            margin: 20px 0px 0px 10px;
+
+            .enjomet {
+                width: 492px;
+            }
+
+            .trevelling {
+                width: 236px;
+                background-image: url(../images/Games\ Copy.png);
+
+                .trevelling-text {
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+
+    .create {
+        margin: 94px 0px 0px 208px;
+
+        .create-header {
+            width: 303px;
+            height: 27px;
+            font-size: 22px;
+            line-height: 27px;
+            margin: 0px 0px 0px 27px;
+        }
+    }
+
+    .footer-line {
+        width: 768px;
+        margin-top: 101px;
+    }
+
+    footer {
+        width: 768px;
+        padding: 37px 0px 0px 39px;
+
+        .footer-company {
+            margin: 2px 0px 0px 108px;
+        }
+
+        .footer-partners {
+            margin: 2px 0px 0px 101px;
+        }
+
+        .footer-designer {
+            margin: 2px 0px 0px 147px;
+        }
+
+        .footer-designer-name {
+            margin: 6px 0px 0px 117px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        width: 320px;
+        height: 540px;
+        background-image: url(../images/Background.png);
+        background-repeat: no-repeat;
+        margin-left: 5px;
+    }
+
+    .header-logo {
+        margin: 107px 0px 0px 91px;
+    }
+
+    .log {
+        margin: -145px 0px 0px 79px;
+    }
+
+    .sign {
+        margin: -157px 0px 0px 143px;
+    }
+
+    .header-name {
+        width: 272px;
+        height: 74px;
+        font-size: 30px;
+        line-height: 37px;
+        margin: 27px 0px 0px 29px;
+    }
+
+    .header-name-title {
+        width: 280px;
+        height: 49px;
+        font-size: 18px;
+        margin: 6px 0px 0px 25px;
+        text-align: center;
+    }
+
+    .header-name-link {
+        width: 280px;
+        margin: 14px 0px 0px 26px;
+    }
+
+    .three-steps {
+        width: 300px;
+        margin: 34px 0px 0px 10px;
+
+        .steps-header {
+            width: 300px;
+
+            .stepts-header-text {
+                width: 289px;
+                height: 27px;
+                font-size: 22px;
+                line-height: 27px;
+            }
+        }
+
+        .three-steps-img {
+            width: 300px;
+            height: 781px;
+            flex-direction: column;
+            justify-content: start;
+            margin: 15px 0px 0px 0px;
+
+            .step-one {
+                width: 300px;
+                height: 240px;
+                background-image: url(../images/Step\ 1\ image.png);
+            }
+
+            .step-two {
+                width: 300px;
+                height: 240px;
+                background-image: url(../images/Step\ 2\ image.png);
+                margin-top: 10px;
+            }
+
+            .step-three {
+                width: 300px;
+                height: 240px;
+                background-image: url(../images/Step\ 3\ image.png);
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .step {
+        margin: 66px 0px 0px 21px;
+    }
+
+    .step-one-header {
+        width: 250px;
+        margin: 44px 0px 0px 22px;
+
+        .step-one-header-text {
+            line-height: 14px;
+        }
+    }
+
+    .step-one-title {
+        width: 250px;
+        margin: 15px 0px 0px 20px;
+
+        .step-one-title-text {
+            width: 250px;
+            height: 57px;
+        }
+    }
+
+    .step-two-logo {
+        margin: 96px 0px 0px 20px;
+    }
+
+    .step-two-header {
+        width: 250px;
+        margin: 23px 0px 0px 21px;
+    }
+
+    .step-two-title {
+        width: 250px;
+        margin: 12px 0px 0px 20px;
+    }
+
+    .partners {
+        width: 300px;
+        height: 1031px;
+        margin: 357px 0px 0px 20px;
+
+        .steps-header {
+            width: 280px;
+
+            .stepts-header-text {
+                width: 280px;
+                height: 54px;
+            }
+        }
+
+        .partners-img {
+            width: 300px;
+            height: 977px;
+            margin-top: 14px;
+            margin-left: 80px;
+        }
+
+        .marie-img {
+            margin: 247px 0px 0px 0px;
+        }
+
+        .diana-img {
+            margin: -454px 0px 0px 0px;
+        }
+
+        .christopher-img {
+            margin: 242px 0px 0px 0px;
+        }
+
+        .other-partners {
+            width: 280px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: -54px 0px 0px 0px;
+            padding-left: 8px;
+        }
+    }
+
+    .images {
+        width: 300px;
+
+        .steps-header {
+            width: 280px;
+            margin: 34px 0px 0px 20px;
+
+            .stepts-header-text {
+                width: 280px;
+                height: 54px;
+                word-spacing: 6px;
+            }
+        }
+
+        .first-img {
+            width: 300px;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin: 34px 0px 0px 10px;
+
+            .sport {
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/Sport\ small.png);
+                background-position: 0px 0px;
+            }
+
+            .wellnes {
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/Healath\ small.png);
+                background-position: 0px 0px;
+                margin-top: 10px;
+            }
+
+            .extreme {
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/Extreme\ small.png);
+                background-position: 0px 0px;
+                margin-top: 10px;
+            }
+        }
+
+        .second-img {
+            width: 300px;
+            flex-direction: column;
+            margin: 10px 0px 0px 10px;
+
+            .games {
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/Games\ small.png);
+                background-position: 0px 0px;
+            }
+
+            .culture {
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/Culture\ small.png);
+                background-position: 0px 0px;
+                margin-top: 10px;
+            }
+        }
+
+        .third-img {
+            width: 300px;
+            flex-direction: column;
+            margin: 10px 0px 0px 10px;
+
+            .enjomet {
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/Culture\ Copy\ small.png);
+            }
+
+            .trevelling {
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/Games\ Copy\ small.png);
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .create {
+        width: 300px;
+        height: 192px;
+        margin: 35px 0px 0px -7px;
+
+        .create-header {
+            width: 280px;
+            height: 54px;
+            text-align: center;
+        }
+
+        .create-title {
+            margin: 19px 0px 0px 31px;
+        }
+
+        .create-form {
+            width: 280px;
+            height: 90px;
+            flex-direction: column;
+            margin: 5px 0px 0px 28px;
+
+            .create-form-enter {
+                width: 280px;
+                height: 40px;
+            }
+
+            .create-form-search {
+                width: 280px;
+                height: 40px;
+                padding: 2px 0px 0px 11px;
+            }
+
+        }
+    }
+
+    .footer-line {
+        width: 320px;
+        margin-top: 40px;
+    }
+
+    footer {
+        width: 320px;
+        padding: 0px 0px 0px 0px;
+
+        .footer-logo {
+            margin: 20px 0px 0px 100px;
+        }
+
+        .footer-company {
+            margin: 53px 0px 0px -93px;
+
+            .footer-company-menu {
+                width: 187px;
+                height: 52px;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-top: 0px;
+                margin: 0px 0px 0px -59px;
+                word-spacing: 8px;
+            }
+        }
+
+        .footer-partners {
+            margin: 129px 0px 0px -67px;
+        }
+
+        .footer-designer {
+            margin: 160px 0px 0px -73px;
+        }
+
+        .footer-designer-name {
+            margin: 6px 0px 0px -88px;
+        }
+    }
+}
